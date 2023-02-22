@@ -1,5 +1,6 @@
 package org.example;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
@@ -9,12 +10,22 @@ import org.junit.Test;
  */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
+
+//    @Test
+// public void shouldAnswerWithTrue()
+// {
+//     assertTrue( true );
+// }
+
     @Test
-    public void shouldAnswerWithTrue()
+    public void checkSumming()
     {
-        assertTrue( true );
+        //Arrange
+        Calculator calc = new Calculator();
+        //Act
+        int result = calc.sumOfTwo(3, 5);
+        //Assert
+        assertEquals(8, result);
+
     }
 }
