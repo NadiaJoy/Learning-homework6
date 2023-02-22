@@ -10,3 +10,13 @@ N | Check Name   | Status
 5 | Check Subtraction Of Neg-Pos | Pass
 6 | Check Subtraction Of Pos-Neg | Pass
 
+
+
+Check-list for User testing
+
+N | Check Name   | Status
+-- | -------------|--------
+1 | Check Full Constructor   | Pass
+2 | Check Void Constructor | Pass
+3 | Check Method NameUpdate  | Pass
+
