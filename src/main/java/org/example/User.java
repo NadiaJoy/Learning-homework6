@@ -19,6 +19,10 @@ public class User {
     }
 
     public String nameUpdate() {
-        return this.name = name + "Updated";
+        if (name == null) {
+            return name = "Unknown";
+        } else {
+            return name = name + " Updated";
+        }
     }
 }
